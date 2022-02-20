@@ -1,0 +1,234 @@
+:root{
+    --mainGray: #8C919B;
+}
+
+
+.navbar-brand{
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand:hover{
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+.navbar-toggler-icon{
+    color: #fff;
+}
+.navbar-nav{
+    padding-right: 2rem;
+}
+.container-fluid{
+    min-height: 85vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/street.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.title-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.btn-blue{
+    background: #3CADD3;
+    color: #fff;
+    width: 12rem;
+    height:2.5rem;
+    border-radius: 30px;
+}
+
+.main-container{
+    margin-top: 6rem;
+    line-height: 3rem;
+}
+
+.main-container h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.main-container p{
+    color: var(--mainGray);
+    font-size: 1.5rem;
+}
+
+.card{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 50px;
+    margin: 2rem 0;
+    padding-top: 1.7rem;
+    text-align: center;
+    color: #fff;
+}
+
+.card-title{
+    color: var(--mainGray);
+    margin-bottom: 2rem;
+}
+
+.card-text{
+    padding: 0 1rem 3rem;
+}
+
+.bg-blue{
+    background-color: #3CADD3;
+    color: #fff;
+}
+.bg-green{
+    background-color: #98d804;
+}
+.bg-red{
+    background-color: #dd3434;
+}
+
+.about{
+    border-top: 1px solid #ccc;
+    margin-top: 3.5rem;
+}
+.about-header{
+    margin-top: 4rem;
+    line-height: 3rem;
+    padding: 1rem 2rem;
+}
+.about-header h2{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #474747;
+}
+.services-content{
+    margin: 0 auto;
+}
+.about-header p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #858585;
+}
+
+.profile-logo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.about-content{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+    margin: 10px auto ;
+}
+.profile-box{
+    margin: 2rem 0;
+}
+.about-footer{
+    margin: 4rem;
+}
+
+.contact{
+    height: auto;
+}
+.contact-header h2{
+    margin: 6rem 2rem 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.contact-header p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 6rem;
+}
+
+.contact-form form{
+    margin: 1rem auto;
+
+}
+input[type="text"],
+input[type="email"]{
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    margin: 0.5rem 0.1rem;
+    padding: 0.8rem 0.7rem;
+}
+.contact-form textarea{
+    background-color: #fff;
+    margin: 0.5rem;
+    color: #444;
+    border-radius: 4px;
+    border: none;
+    height: 12rem;
+    margin-top: 0.5rem;
+    padding: 0.8rem 0.9rem;
+    resize: none;
+}
+.btn-black{
+    background: #474747;
+    font-size: 1rem;
+    color: #fff;
+    width: 10rem;
+    height:2.5rem;
+    border-radius: 30px;
+    margin-bottom: 4rem;
+}
+.btn-black:hover{
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+}
+
+footer{
+    background-color: #383b43;
+    padding: 1rem 0;
+}
+
+.copy-right li{
+    padding: 0.5rem;
+    color: #858585;
+    margin:0 0.3rem ;
+    font-size: 1rem;
+    list-style-type: none;
+    
+}
+
+.copy-right li a{
+    color: #858585;
+    text-decoration: none;
+}
+
+.social-media li{
+    padding: 0.5rem;
+    color: #858585;
+    margin:0 1rem;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+.social-media li a{
+    color: #858585;
+    text-decoration: none;
+}
